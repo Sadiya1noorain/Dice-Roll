@@ -19,6 +19,7 @@ let active = 0;
 let playing = true;
 
 function initial(){
+    currentScore = 0;
     score0.textContent = 0;
     score1.textContent = 0;
     currentScore0.textContent = 0;
