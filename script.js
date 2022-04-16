@@ -20,10 +20,10 @@ let playing = true;
 
 function initial(){
 
-    let currentScore = 0;
-    let scores = [0, 0];
-    let active = 0;
-    let playing = true;    
+    currentScore = 0;
+    scores = [0, 0];
+    active = 0;
+    playing = true;    
     score0.textContent = 0;
     score1.textContent = 0;
     currentScore0.textContent = 0;
